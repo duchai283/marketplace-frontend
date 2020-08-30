@@ -1,0 +1,18 @@
+.prod_main_wrap {
+  display: flex;
+  margin-bottom: 30px;
+}
+.prod_left__img-wrap {
+  width: 400px;
+}
+.prod_right {
+  width: 400px;
+  margin-left: 30px;
+  &__title {
+    font-size: 26px;
+    color: #40485a;
+    font-weight: 500;
+    line-height: 30px;
+    margin-bottom: 20px;
+  }
+}

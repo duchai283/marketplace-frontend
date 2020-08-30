@@ -1,0 +1,179 @@
+.signupComponent {
+  .signupform {
+  }
+  .signbtn {
+    background: #83b151;
+    border-radius: 5px;
+    font-weight: 700;
+    color: #fff;
+    height: 44px;
+    text-align: center;
+    width: 100%;
+    text-transform: uppercase;
+    margin-bottom: 12px;
+    border: none;
+    cursor: pointer;
+    margin-top: 30px;
+  }
+  .error {
+    color: #eb5757;
+    padding-top: 5px;
+    padding-left: 5px;
+    font-size: 12px;
+  }
+
+  .mbd {
+    font-size: 14px;
+    color: #40485a;
+    margin-right: 12px;
+  }
+  .glink {
+    color: #83b151;
+  }
+  .lida {
+    margin-bottom: 10px;
+    width: 97%;
+  }
+  .dyna {
+    display: flex;
+    flex-direction: row;
+  }
+  .myleft {
+    flex: 1;
+    padding-right: 15px;
+    padding-bottom: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    @media screen and (max-width: 767px) {
+      padding-right: 0;
+    }
+  }
+  .myright {
+    padding-left: 15px;
+    padding-top: 10px;
+    padding-right: 15px;
+    color: #888;
+    @media screen and (max-width: 767px) {
+      padding-left: 8px;
+    }
+  }
+  .gbor {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    user-select: none;
+  }
+  .myright span {
+    font-size: 12px;
+  }
+  .btnactive {
+    background: #83b151;
+    color: #fff;
+  }
+  .ynbtn {
+    border-radius: 5px;
+    border: 1px solid #83b151;
+    font-size: 14px;
+    width: 50px;
+    height: 36px;
+    text-align: center;
+    line-height: 36px;
+    cursor: pointer;
+  }
+  .yes {
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    border-right: 0;
+  }
+  .no {
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    border-left: 0;
+  }
+
+  .notis {
+    margin-bottom: 14px;
+  }
+  .checkwrap {
+    display: flex;
+    align-content: center;
+    margin-bottom: 20px;
+  }
+  .thecheck {
+    margin-bottom: 20px;
+  }
+  .nobor {
+    border: 0;
+  }
+  .justbit {
+    font-size: 14px;
+    color: #40485a;
+    margin-bottom: 9px;
+  }
+  .ibi {
+    display: flex;
+    justify-content: space-between;
+  }
+  .checkbox {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    width: 22px;
+    height: 22px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    margin-right: 9px;
+    img {
+      width: 14px;
+    }
+  }
+  .hida {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 15px;
+  }
+  .field {
+    border: 1px solid #dddddd;
+    border-radius: 5px;
+    background: #fafafa;
+    height: 44px;
+    padding-left: 14px;
+    width: 100%;
+  }
+
+  input::placeholder {
+    color: #92969f;
+  }
+
+  .clickherelink {
+    color: #006bb4;
+    cursor: pointer;
+  }
+  .activebox {
+    border-color: #83b151;
+  }
+
+  .signcheck {
+    color: #74a53f;
+    font-size: 16px;
+  }
+  .flog {
+    color: #3b5998;
+    font-size: 20px;
+    margin-right: 10px;
+  }
+}
+@media (max-width: 767px) {
+  .signupComponent {
+    .dyna {
+      margin-bottom: 20px;
+    }
+    .myright {
+      padding-top: 0;
+      padding-right: 0;
+    }
+  }
+}

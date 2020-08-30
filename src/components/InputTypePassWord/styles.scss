@@ -1,0 +1,23 @@
+.inputTypePasswordComponent {
+  position: relative;
+  .tap {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 0;
+    right: 0;
+    cursor: pointer;
+    width: 44px;
+    height: 44px;
+  }
+}
+.field {
+  border: 1px solid #dddddd;
+  border-radius: 5px;
+  background: #fafafa;
+  height: 44px;
+  padding-left: 14px;
+  outline: none;
+  width: 100%;
+}

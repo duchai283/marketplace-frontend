@@ -1,0 +1,46 @@
+.container {
+  display: flex;
+  flex: 1 1;
+  flex-direction: column;
+  position: relative;
+  height: 100%;
+  background: #efefef;
+  position: relative;
+}
+.header__wrapper {
+  position: fixed;
+  right: 0;
+  left: 0;
+  z-index: 10;
+}
+.main__content {
+  padding-top: 20px;
+  margin-top: 50px;
+  display: flex;
+}
+.wrapper__sidebar {
+  width: 15%;
+  padding-left: 70px;
+}
+.wrapper__body {
+  width: 70%;
+}
+.footer__wrapper {
+}
+
+.bodyComponent {
+  flex: 1 1;
+  background: #e5e5e5;
+  padding-top: 110px;
+}
+.inner_body {
+  max-width: 1440px;
+  width: calc(100vw - 30px);
+  min-height: 500px;
+  margin: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}

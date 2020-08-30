@@ -1,0 +1,39 @@
+.block-title {
+  font-size: 22px;
+  font-weight: lighter;
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 10px;
+  margin-bottom: 15px;
+  display: flex;
+  align-items: center;
+}
+.block-dashboard-info {
+  // margin-bottom: 50px;
+  margin-top: 10px;
+}
+.box-actions a {
+  color: #40485a;
+}
+
+.box-actions a:hover {
+  color: #83b151;
+}
+.box-content {
+  font-size: 14px;
+  margin-top: 15px;
+  margin-bottom: 10px;
+}
+.box-actions {
+  font-size: 14px;
+}
+.mx-3 {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.label {
+  font-weight: 500;
+  width: 100px;
+  display: inline-block;
+  line-height: 25px;
+}

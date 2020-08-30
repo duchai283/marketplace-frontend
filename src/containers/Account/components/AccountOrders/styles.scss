@@ -1,0 +1,33 @@
+.order {
+  &-status {
+    display: inline-block;
+    white-space: nowrap;
+    padding: 5px !important;
+    border-radius: 5px;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 600;
+  }
+  &_accepted {
+    background-color: lightseagreen;
+  }
+  &_cancelled {
+    background-color: red;
+  }
+  &_fulfilled {
+    background-color: royalblue;
+  }
+  &_delivery {
+    background-color: orange;
+  }
+  &_completed {
+    background-color: #28a745;
+  }
+}
+
+.table-row {
+  cursor: pointer;
+  &:hover {
+    color: #80af46;
+  }
+}

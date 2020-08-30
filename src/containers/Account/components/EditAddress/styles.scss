@@ -1,0 +1,88 @@
+.table-header {
+  font-size: 12px;
+  padding: 12px 0 12px 10px !important;
+}
+.table th {
+  padding: 0;
+  background: #fafafa;
+  color: #757575;
+  text-align: left;
+  font-weight: 400;
+  border: 1px solid #eff0f5;
+  border-width: 0 0 1px;
+}
+th {
+  border-width: 0 0 1px;
+}
+.table {
+  border-spacing: 0;
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  line-height: 22px;
+  min-width: 890px;
+}
+
+.table-cell div {
+  font-size: 12px;
+  padding: 12px 20px 12px 10px !important;
+}
+.btnAddAddress {
+  margin: 0;
+  padding: 0 36px;
+  font-size: 14px;
+  border-width: 1px;
+  min-width: 168px;
+  height: 40px;
+  line-height: 40px;
+  margin-left: 12px;
+  color: #fff;
+  background-color: #1a9cb7;
+  border-color: #1a9cb7;
+  margin-right: 30px;
+}
+
+.btn-wrap {
+  width: 100%;
+  text-align: right;
+  margin-top: 20px;
+}
+
+.table-row {
+  height: 60px;
+  border: 1px solid #eff0f5;
+  border-width: 0 0 1px;
+}
+
+.diachi {
+  max-width: 300px;
+}
+.table-row-line {
+  display: contents !important;
+}
+td {
+  border: 1px solid #eff0f5;
+  border-width: 0 0 1px;
+}
+.tag-home {
+  background-image: linear-gradient(-143deg, #ff7b53, #ff4b28);
+}
+.tag-office {
+  background-image: linear-gradient(39deg, #0094b6 1%, #5bbbce 97%);
+}
+.tag {
+  border-radius: 8px;
+  color: #fff;
+  font-size: 10px;
+  display: inline-block;
+  height: 15px;
+  text-align: center;
+  vertical-align: text-bottom;
+  line-height: 15px;
+  margin-right: 5px;
+  padding: 0 7px;
+}
+.cta a {
+  margin: 0 20px;
+  color: #1a9cb7;
+}

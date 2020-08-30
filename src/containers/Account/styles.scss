@@ -1,0 +1,71 @@
+.innerbody {
+  max-width: 1440px;
+  width: calc(100vw - 30px);
+  min-height: 500px;
+  margin: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 100px;
+}
+.bodyLeftAccountComponent {
+  width: 250px;
+  padding-right: 20px;
+  position: relative;
+  & .accountMenuComponent {
+    background: #fff;
+    border-radius: 5px;
+    padding-top: 10px;
+    padding-bottom: 12px;
+  }
+  & .nav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    margin-left: 10px;
+  }
+  & ul li a {
+    border-left: 3px solid #fff;
+    color: #575757;
+    display: block;
+    padding-top: 6px;
+    padding-right: 6px;
+    padding-bottom: 5px;
+    padding-left: 3px;
+    font-size: 13px;
+    transition: all 0.2s linear;
+  }
+}
+
+.bodyMiddleAccountComponent {
+  width: calc(100% - 480px);
+  & .accountComponent {
+    display: flex;
+    flex-direction: column;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    background: white;
+    padding: 30px;
+  }
+}
+
+.active {
+  border-left: 3px solid #83b151;
+  font-weight: 600;
+}
+
+.ld-account-page--title {
+  font-size: 36px;
+  font-weight: lighter;
+  color: #80af46;
+  margin-bottom: 10px;
+}
+
+.line {
+  border-top: 1px solid #d1d1d1;
+  display: block;
+  margin-right: 17px;
+  margin-top: 8px;
+}

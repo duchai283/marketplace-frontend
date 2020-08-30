@@ -1,0 +1,46 @@
+.order-dt {
+  &__number {
+    color: #83b151;
+    font-size: 36px;
+  }
+
+  &__date {
+    margin: 20px 0;
+    font-size: 16px;
+    color: #40485a;
+  }
+  &__text {
+    color: #495057;
+    font-weight: bold;
+    font-size: 22;
+  }
+  &__status {
+    display: flex;
+  }
+  &__head {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+  }
+  &__track {
+    color: #2d9cdb;
+    background: rgba(45, 156, 219, 0.1);
+    border: 1px solid #2d9cdb;
+    margin-left: 10px;
+    border-radius: 3px;
+    display: inline-block;
+    padding: 4px 7px;
+    font-weight: 500;
+    font-size: 12px;
+    text-align: center;
+    text-transform: uppercase;
+    cursor: pointer;
+    white-space: nowrap;
+  }
+  &__cancel {
+    color: red;
+    margin-right: 10px;
+    padding-top: 5px;
+    cursor: pointer;
+  }
+}

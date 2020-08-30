@@ -1,0 +1,52 @@
+.btn {
+  width: 120px;
+  height: 40px;
+  display: flex;
+  -webkit-box-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  align-items: center;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 14px;
+  font-weight: 700;
+  padding: 0px 10px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.btn__primary {
+  color: rgb(255, 255, 255);
+  background: rgb(131, 177, 81);
+}
+
+.inputAddToCart {
+  flex: 1 1 0%;
+  height: 80%;
+  border: none;
+  outline: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: rgb(255, 255, 255);
+  background-color: rgb(131, 177, 81);
+  min-width: 33%;
+  border-width: 0px;
+}
+
+.btnAdd,
+.btnMinus {
+  border: none;
+  outline: none;
+  background: none;
+  color: white;
+  cursor: pointer;
+}
+
+.incart {
+  height: 30px;
+  width: 80px;
+}
